@@ -1,5 +1,5 @@
-let jugador1 = prompt("escoge piedra, papel o tijera");
-let jugador2 = prompt("escoge piedra, papel o tijera");
+let jugador1 = prompt("piedra, papel o tijera");
+let jugador2 = prompt("piedra, papel o tijera");
 
 if(jugador1 == piedra && jugador2 == papel ){
     console.log("jugador2 gana")

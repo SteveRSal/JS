@@ -1,0 +1,7 @@
+let number = (prompt('Ingrese un número'));
+
+if (number == 1000) {
+    alert('Felicidades Ganaste un premio.');
+} else {
+    alert('El número ingresado fue: ' + number + '\nLo sentimos, sigue participando.');
+}
