@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CajerBS</title>
+</head>
+<body>
+    <form action="">
+        <h1>Login</h1>
+        <label for="">Usuario</label>
+        <input type="text" name="u" id="">
+        <label for="">Password</label>
+        <input type="password" name="c" id="">
+        <input type="button" value="Ingresar" onclick="login(this.form)">
+
+    </form>
+    <script>
+        function login(form){
+            if(form.u.value===("Agripino")){
+                if(form.c.value=="123"){
+                    location="cuenta.html";
+            
+                }
+                else{
+                    alert("Intentalo de nuevo compa")
+                }
+            } else{
+                    alert("Ni te topo")
+            }
+            
+        }
+    function login(form){
+        if(form.u.value===("Cochiloco")){
+                if(form.c.value=="456"){
+                    location="cuenta.html";
+            
+                } else{
+                    alert("Intentalo de nuevo compa")
+                }
+            } else{
+                    alert("Ni te topo")
+            }
+            
+    }
+    function login(form){
+        if(form.u.value===("Masiosare")){
+                if(form.c.value=="789"){
+                    location="cuenta.html";
+            
+                } else{
+                    alert("Intentalo de nuevo compa")
+                }
+            } else{
+                    alert("Ni te topo")
+            }
+            
+    }
+    
+
+    </script>
+</body>
+</html>
